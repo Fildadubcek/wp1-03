@@ -8,13 +8,12 @@
 </head>
 <body>
 <?php
-$two ="2";
 $pi ="3,17";
 $r = rand(0,100);
     // obsah
-    $area = $two * $r * $pi;
+    $area = ($r*$r) * $pi;
     // obvod
-    $circuit = $two * $r * $pi;
+    $circuit = 2 * $r * $pi;
 ?>
 <p>Poloměr kruhu je <?= $r ?> cm </p>
 <p>Obsah kruhu je <?= $area ?> cm2 </p>
