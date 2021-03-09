@@ -16,9 +16,9 @@ $r = rand(0,100);
     // obvod
     $circuit = $two * $r * $pi;
 ?>
-<p>Poloměr kruhu je <?= $r ?> </p>
-<p>Obsah kruhu je <?= $area ?> </p>
-<p>Obvod kruhu je <?= $circuit ?> </p>
+<p>Poloměr kruhu je <?= $r ?> cm </p>
+<p>Obsah kruhu je <?= $area ?> cm2 </p>
+<p>Obvod kruhu je <?= $circuit ?> cm </p>
 
 </body>
 </html>
